@@ -1,0 +1,13 @@
+.link:focus,
+.name:hover,
+.link:hover {
+  color: tomato;
+}
+
+.link:active {
+  color: brown;
+}
+
+.link:visited {
+  color: green;
+}
