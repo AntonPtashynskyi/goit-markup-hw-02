@@ -10,6 +10,8 @@
   --tittle-text-color: #212121;
   --accent-text-color: #2196f3;
   --white-text-color: #ffffff;
+  --primery-button-color: #f5f4fa;
+  --accent-button-color: #2196f3;
 }
 
 /* body primery text color*/
@@ -17,6 +19,10 @@
 body {
   color: var(--primery-text-color);
   background-color: #e7e7e7;
+}
+
+.list {
+  list-style: none;
 }
 
 /* header */
@@ -48,6 +54,19 @@ body {
 .contact .contact-item:hover,
 .contact .contact-item:focus {
   color: var(--accent-text-color);
+}
+
+/* PRIMERY BUTTOM */
+
+.primery-button {
+  background-color: var(--primery-button-color);
+  color: var(--tittle-text-color);
+}
+
+.primery-button:hover,
+.primery-button:focus {
+  background-color: var(--accent-button-color);
+  color: var(--white-text-color);
 }
 
 /* main board section + button */
@@ -82,7 +101,35 @@ body {
   color: var(--tittle-text-color);
 }
 
-/* footer */
+/* footer, contacts section same as in header*/
 .footer .footer-adress {
   color: var(--white-text-color);
+}
+
+/* PORTFOLIO HTML */
+
+/* portfolio buttons*/
+.button {
+  background-color: var(--primery-button-color);
+  color: var(--tittle-text-color);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-button-color);
+  color: var(--white-text-color);
+}
+
+/* portfolio list */
+
+.portfolio h2 {
+  color: var(--tittle-text-color);
+}
+
+.portfolio p {
+  color: var(--primery-text-color);
+}
+
+.portfolio-tittle {
+  display: none;
 }
