@@ -18,7 +18,11 @@
 
 body {
   color: var(--primery-text-color);
-  background-color: #e7e7e7;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .list {
@@ -29,7 +33,11 @@ body {
 
 .logo {
   color: var(--tittle-text-color);
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo-accent {
@@ -38,6 +46,12 @@ body {
 
 .site-nav .link {
   color: var(--tittle-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -47,8 +61,16 @@ body {
 
 /* Contacts header + footer */
 
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .contact .contact-item {
   color: var(--primery-text-color);
+  text-decoration: none;
 }
 
 .contact .contact-item:hover,
@@ -56,22 +78,41 @@ body {
   color: var(--accent-text-color);
 }
 
+/* MAIN board section + button */
+
+.main-board {
+  background-color: #e7e7e7;
+}
+
+.main-board-text {
+  color: var(--white-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 /* PRIMERY BUTTOM */
 
 .primery-button {
-  background-color: var(--primery-button-color);
-  color: var(--tittle-text-color);
-}
-
-.primery-button:hover,
-.primery-button:focus {
   background-color: var(--accent-button-color);
   color: var(--white-text-color);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
-/* main board section + button */
-
-.main-board-text {
+.primery-button:focus {
+  background-color: var(--accent-button-color);
   color: var(--white-text-color);
 }
 
@@ -84,24 +125,44 @@ body {
 
 .features .features-tittle {
   color: var(--tittle-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* what we do secrion */
-.about-us .about-us-tittle {
+.about-us .about-us-tittle,
+.team-tittle {
   color: var(--tittle-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* our team section */
 
-.team .team-tittle {
-  color: var(--tittle-text-color);
-}
-
 .team h3 {
   color: var(--tittle-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.team p {
+  line-height: 1.9;
 }
 
 /* footer, contacts section same as in header*/
+
+.footer {
+  background-color: #e7e7e7;
+}
+
 .footer .footer-adress {
   color: var(--white-text-color);
 }
@@ -112,6 +173,13 @@ body {
 .button {
   background-color: var(--primery-button-color);
   color: var(--tittle-text-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -122,14 +190,26 @@ body {
 
 /* portfolio list */
 
-.portfolio h2 {
+.portfolio .portfolio-project-tittle {
   color: var(--tittle-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
-.portfolio p {
+.portfolio .portfolio-text {
   color: var(--primery-text-color);
+
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 .portfolio-tittle {
   display: none;
+}
+
+.portfolio .portfolio-link {
+  text-decoration: none;
 }
