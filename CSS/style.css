@@ -23,6 +23,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 
 .list {
@@ -59,6 +60,10 @@ body {
   color: var(--accent-text-color);
 }
 
+.site-nav .studio {
+  color: var(--accent-text-color);
+}
+
 /* Contacts header + footer */
 
 .contact {
@@ -71,6 +76,7 @@ body {
 .contact .contact-item {
   color: var(--primery-text-color);
   text-decoration: none;
+  font-style: normal;
 }
 
 .contact .contact-item:hover,
@@ -81,7 +87,7 @@ body {
 /* MAIN board section + button */
 
 .main-board {
-  background-color: #e7e7e7;
+  background-color: #cecece;
 }
 
 .main-board-text {
@@ -160,16 +166,22 @@ body {
 /* footer, contacts section same as in header*/
 
 .footer {
-  background-color: #e7e7e7;
+  background-color: #cecece;
 }
 
 .footer .footer-adress {
   color: var(--white-text-color);
+  font-style: normal;
 }
 
 /* PORTFOLIO HTML */
 
 /* portfolio buttons*/
+
+.site-nav .portfolio {
+  color: var(--accent-text-color);
+}
+
 .button {
   background-color: var(--primery-button-color);
   color: var(--tittle-text-color);
